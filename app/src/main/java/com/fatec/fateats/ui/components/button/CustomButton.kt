@@ -1,4 +1,4 @@
-package com.fatec.fateats.ui.components
+package com.fatec.fateats.ui.components.button
 
 import androidx.annotation.DrawableRes
 import androidx.compose.foundation.layout.Arrangement
