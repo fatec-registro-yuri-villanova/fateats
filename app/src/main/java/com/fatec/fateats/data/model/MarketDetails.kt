@@ -1,0 +1,19 @@
+package com.fatec.fateats.data.model
+
+import com.fatec.fateats.data.model.Rule
+import kotlinx.serialization.Serializable
+
+@Serializable
+data class MarketDetails(
+    val id: String,
+    val categoryId: String,
+    val name: String,
+    val description: String,
+    val rules: List<Rule>,
+    val coupons: Int,
+    val latitude: Double,
+    val longitude: Double,
+    val address: String,
+    val phone: String,
+    val cover: String,
+)
